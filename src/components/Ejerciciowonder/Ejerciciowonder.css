@@ -20,6 +20,8 @@
     overflow: hidden;
     font-family: 'Rubik', sans-serif;
     padding: 15px;
+    transition: height 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .tarjeta-contenedor-blanco h2{
@@ -69,4 +71,8 @@
     font-size: 16px;
     color: rgb(10, 87, 70);
     
+}
+
+.tarjeta-contenedor-blanco-txt{
+    font-weight:300;
 }
