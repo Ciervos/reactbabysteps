@@ -13,7 +13,7 @@ return(
     <span class="tarjeta-contenedor-blanco-txt">En la mitología griega, Medusa era un monstruo ctónico femenino, que convertía en piedra a aquellos que la miraban fijamente a los ojos. Fue decapitada por Perseo, quien después usó su cabeza como arma2 hasta que se la dio a la diosa Atenea para que le pusiera en su escudo, la égida. Desde la antigüedad clásica griega, la imagen de la cabeza de Medusa aparece representada en el artilugio que aleja el mal conocido como Gorgoneion.</span>
 
     <p><a className="tarjetalink" href="https://reactjs.org" target="_blank"  rel="noopener noreferrer">
-          Link
+👀 No mires a sus ojos
         </a></p>
     </article>
     <footer><button id="botondetarjetas" className="footerbottom" onClick={modTarjeta} type="button">+</button></footer>
