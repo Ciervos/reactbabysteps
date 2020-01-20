@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap');
+
+.tarjeta-contenedor-principal{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 600px;
+    height: 600px;
+    width: 300px;
+    margin: 30px;
+    position: relative;
+}
+
+.tarjeta-contenedor-blanco{
+    background-color: 	#FFFAFA;
+    height: 250px;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+}
+
+.tarjeta-contenedor-blanco h2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height : 2px;
+}
+
+.tarjeta-contenedor-blanco h1{
+    font-weight: 600;
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: -1.4px;
+    line-height : 2px;
+}
+
+.footerbottom{
+    background-color: teal;
+    border: none;
+    color: honeydew;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    right: 0px;
+    height: 40px;
+    width: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}

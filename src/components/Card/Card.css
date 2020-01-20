@@ -1,0 +1,25 @@
+
+
+.card{
+box-shadow: 0 0 5px #666;
+height: 500px;
+width: 400px;
+}
+
+.cardheader{
+overflow: hidden;
+background-position: 'center';
+background-size: 100%;
+background-repeat: 'no-repeat';
+height: 200px;
+}
+
+.cardheaderimg{
+max-width: 100%;
+}
+
+.rssclase{
+ width: 50px;  
+ height: 50px; 
+
+}
