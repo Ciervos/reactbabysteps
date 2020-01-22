@@ -29,11 +29,11 @@ return(
 }
 
 
-const modTarjeta = () =>{
-    let contenedorblanco = document.querySelector("#a");
+const modTarjeta = event =>{
+    
+    let contenedorblanco = event.currentTarget.parentElement.parentElement;
     let elboton = document.querySelector("#primerboton");
     contenedorblanco.classList.toggle('tarjetaonclick');
-
     if(elboton.innerHTML==="+"){
         elboton.innerHTML="X"
     }else{

@@ -20,7 +20,7 @@
     overflow: hidden;
     font-family: 'Rubik', sans-serif;
     padding: 15px;
-    transition: height 0.5s;
+    transition: height 0.5s, width 0.5s, left 0.5s;
     transition-timing-function: ease-out;
 }
 
@@ -52,6 +52,12 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 30px;
+    transition: background-color 1.5s;
+}
+.footerbottom:hover{
+cursor: pointer;
+background-color:  crimson;
+
 }
 
 .tarjetaonclick{
