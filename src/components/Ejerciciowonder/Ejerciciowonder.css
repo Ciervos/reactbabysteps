@@ -56,8 +56,12 @@
 }
 .footerbottom:hover{
 cursor: pointer;
-background-color:  crimson;
+background-color:  blue;
 
+}
+
+.botonparacerrar:hover{
+    background-color:  red;  
 }
 
 .tarjetaonclick{

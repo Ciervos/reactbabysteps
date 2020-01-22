@@ -32,11 +32,13 @@ return(
 const modTarjeta = event =>{
     
     let contenedorblanco = event.currentTarget.parentElement.parentElement;
-    let elboton = document.querySelector("#primerboton");
+    let elboton = event.currentTarget;
     contenedorblanco.classList.toggle('tarjetaonclick');
     if(elboton.innerHTML==="+"){
         elboton.innerHTML="X"
+        event.currentTarget.classList.add('botonparacerrar');
     }else{
+        event.currentTarget.classList.remove('botonparacerrar');
         elboton.innerHTML="+"
     }
 };
