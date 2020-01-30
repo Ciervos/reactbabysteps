@@ -7,8 +7,15 @@ import Ejerciciowonder from './components/Ejerciciowonder/Ejerciciowonder';
 import FondoDusa from './components/Ejerciciowonder/medusa.jpg';
 import FondoNyx from './components/Ejerciciowonder/nyx.jpg';
 import FondoPerse from './components/Ejerciciowonder/persefone.jpg';
+import Contador from './components/Contador/contador';
 
-const App = () => {
+const App = props => {
+return(
+  <Contador></Contador>
+);
+
+/* --CARTAS MITOLOGICAS-- 
+
 const girls = [
   {
    id: "a",
@@ -51,6 +58,8 @@ const girls = [
       })}
 </div>
   );
+
+  */
   /*  const imagenes = [HeaderImg, logo];
  
   const cards = [
