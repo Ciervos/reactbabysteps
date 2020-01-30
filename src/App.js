@@ -8,11 +8,20 @@ import FondoDusa from './components/Ejerciciowonder/medusa.jpg';
 import FondoNyx from './components/Ejerciciowonder/nyx.jpg';
 import FondoPerse from './components/Ejerciciowonder/persefone.jpg';
 import Contador from './components/Contador/contador';
+import Dobleinput from './components/dobleinput/dobleinput';
 
 const App = props => {
+
+return(
+  <Dobleinput></Dobleinput>
+);
+
+
+  /*
+--Contador--
 return(
   <Contador></Contador>
-);
+);*/
 
 /* --CARTAS MITOLOGICAS-- 
 
