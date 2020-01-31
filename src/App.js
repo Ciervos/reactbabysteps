@@ -9,12 +9,20 @@ import FondoNyx from './components/Ejerciciowonder/nyx.jpg';
 import FondoPerse from './components/Ejerciciowonder/persefone.jpg';
 import Contador from './components/Contador/contador';
 import Dobleinput from './components/dobleinput/dobleinput';
+import Botonquesuma from './components/botonquesuma/botonquesuma';
+import Passerror from './components/passerror/passerror';
 
 const App = props => {
-
 return(
+  <Passerror></Passerror>
+);
+
+/* --Color texto--
+return(
+
   <Dobleinput></Dobleinput>
 );
+*/
 
 
   /*
