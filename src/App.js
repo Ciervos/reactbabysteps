@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import logo from './giphy.gif';
 import './App.css';
 import Card from './components/Card/Card';
@@ -11,11 +12,20 @@ import Contador from './components/Contador/contador';
 import Dobleinput from './components/dobleinput/dobleinput';
 import Botonquesuma from './components/botonquesuma/botonquesuma';
 import Passerror from './components/passerror/passerror';
+import Listaclases from './components/pruebaclases/listaclases';
+import Tablaclases from './components/pruebaclases/tablitaclases';
+
 
 const App = props => {
 return(
+<Tablaclases></Tablaclases>
+
+)
+
+
+/*return(
   <Passerror></Passerror>
-);
+);*/
 
 /* --Color texto--
 return(
