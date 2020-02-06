@@ -14,11 +14,12 @@ import Botonquesuma from './components/botonquesuma/botonquesuma';
 import Passerror from './components/passerror/passerror';
 import Listaclases from './components/pruebaclases/listaclases';
 import Tablaclases from './components/pruebaclases/tablitaclases';
+import Tablaeffect from './components/useeffects/tablaeffect';
 
 
 const App = props => {
 return(
-<Tablaclases></Tablaclases>
+<Tablaeffect></Tablaeffect>
 
 )
 
