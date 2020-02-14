@@ -9,10 +9,6 @@ const Componentedos = () =>{
     const [valorcheck, toggleValorcheck] = useBool(true);
  
     
-   /* useEffect(() => {
-        
-      }, []);*/
-    
 
 return(
     <div className="el-contenedordos">
