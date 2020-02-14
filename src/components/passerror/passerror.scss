@@ -1,0 +1,40 @@
+.contenedorgeneral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 40px;
+    width: 40%;
+
+    input{   
+        height: 25px;
+        width: 200px;
+   &:focus{   
+    background-color: honeydew;
+ } 
+     }
+
+    button{
+      color: white;
+      height: 25px;  
+      margin-top: 10px;
+      width: 200px;    
+    } 
+    }
+ 
+.correcto{   
+    color: green;
+    font-weight: bolder;
+ }
+
+.incorrecto{   
+    color: tomato;
+    font-weight: bolder;
+ } 
+ 
+.boton-login{   
+    background-color: blueviolet;
+  } 
+
+ .boton-mod-pass{   
+   background-color: violet;
+ } 
