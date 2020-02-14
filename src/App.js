@@ -9,12 +9,21 @@ import FondoNyx from './components/Ejerciciowonder/nyx.jpg';
 import FondoPerse from './components/Ejerciciowonder/persefone.jpg';
 import Contador from './components/Contador/contador';
 import Dobleinput from './components/dobleinput/dobleinput';
+import Componenteuno from './components/customhooks/componenteuno';
+import Componentedos from './components/customhooks/componentedos';
 
 const App = props => {
 
 return(
-  <Dobleinput></Dobleinput>
+  <div>
+<Componenteuno></Componenteuno>
+<Componentedos></Componentedos>
+</div>
 );
+
+/*return(
+  <Dobleinput></Dobleinput>
+);*/
 
 
   /*
