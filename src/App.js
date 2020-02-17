@@ -11,15 +11,31 @@ import Contador from './components/Contador/contador';
 import Dobleinput from './components/dobleinput/dobleinput';
 import Componenteuno from './components/customhooks/componenteuno';
 import Componentedos from './components/customhooks/componentedos';
+/*import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faAddressBook} from '@fortawesome/free-solid-svg-icons';*/
+import {
+  BrowserRouter,
+  Switch,
+  Route
+} from 'react-router-dom';
+import Links from './sections/Links/Links';
+import SwitchComponent from './sections/SwitchComponents/SwitchComponent';
 
 const App = props => {
 
-return(
+  return( 
+    <BrowserRouter>
+    <Links />
+    <SwitchComponent/>
+  </BrowserRouter>  
+  );
+
+/*return(
   <div>
 <Componenteuno></Componenteuno>
 <Componentedos></Componentedos>
 </div>
-);
+);*/
 
 /*return(
   <Dobleinput></Dobleinput>
