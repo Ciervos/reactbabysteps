@@ -20,15 +20,22 @@ import {
 } from 'react-router-dom';
 import Links from './sections/Links/Links';
 import SwitchComponent from './sections/SwitchComponents/SwitchComponent';
+import Redu from './components/redu/redu';
 
 const App = props => {
 
+return(
+  <Redu></Redu>
+);
+
+
+ /* 
   return( 
     <BrowserRouter>
     <Links />
     <SwitchComponent/>
   </BrowserRouter>  
-  );
+  );*/
 
 /*return(
   <div>
