@@ -27,7 +27,7 @@ const Redu = () => {
    <div>
 <input type="text" placeholder="Username" onChange={e=>setUser(e.target.value)}/>
 <button onClick={changeUser} >Registrar User</button>
-<input type="text" placeholder="Email" onChange={e=>setEmail(e.target.value)}/>
+<input type="email" placeholder="Email" onChange={e=>setEmail(e.target.value)}/>
 <button onClick={changeEmail}>Registrar Email</button>
 <input type="text" placeholder="Tel" onChange={e=>setTel(e.target.value)}/>
 <button onClick={changeTel}>Registrar Tel</button>

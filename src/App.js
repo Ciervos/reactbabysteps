@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState,useContext} from 'react';
 import logo from './giphy.gif';
 import './App.css';
 import Card from './components/Card/Card';
@@ -21,11 +21,26 @@ import {
 import Links from './sections/Links/Links';
 import SwitchComponent from './sections/SwitchComponents/SwitchComponent';
 import Redu from './components/redu/redu';
+import Primercontext from './components/contexto/primercontext';
+import Segundocontext from './components/contexto/segundocontext';
+import Elcontext from './components/contexto/elcontext';
 
 const App = props => {
+  const [elValue, setValue] = useState("Tirame algo para poner aca");
+  const changeValue = event => setValue(event.target.value);
 
 return(
-  <Redu></Redu>
+  <Elcontext.Provider value={
+    {
+      elValue,
+      changeValue
+    }
+  }>
+  <div>
+<Primercontext></Primercontext>
+<Segundocontext></Segundocontext>
+  </div>
+  </Elcontext.Provider>
 );
 
 
